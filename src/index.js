@@ -10,7 +10,8 @@ import reportWebVitals from './reportWebVitals';
 // import NotificationList from './chapter_06/NotificationList';  //chap06에 사용
 // import Accommodate from './chapter_07/Accommodate';  //chap07에 사용
 // import ConfirmButton from './chapter_08/ConfirmButton';  //chap08에 사용 (방법3은 ...Button2로 이름 바꾸기)
-import LandingPage from './chapter_09/LandingPage';  //chap09에서 사용
+// import LandingPage from './chapter_09/LandingPage';  //chap09에서 사용
+import AttendanceBook from './chapter_10/AttendanceBook';  //chap10에서 사용
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,8 +21,9 @@ root.render(
         {/* <CommentList/>  chap05에 사용 */}
         {/* <NotificationList/>  chap06에 사용 */}
         {/* <Accommodate/>  chap07에 사용 */}
-        {/* <ConfirmButton/>  chap09에 사용*/}
-        <LandingPage/>
+        {/* <ConfirmButton/>  chap08에 사용*/}
+        {/* <LandingPage/>  chap09에 사용*/}
+        <AttendanceBook/>
     </React.StrictMode>
 );
 
