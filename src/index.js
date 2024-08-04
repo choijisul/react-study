@@ -8,7 +8,8 @@ import reportWebVitals from './reportWebVitals';
 // import Clock from './chapter_04/Clock';  //chap04에 사용
 // import CommentList from './chapter_05/CommentList';  //chap05에 사용
 // import NotificationList from './chapter_06/NotificationList';  //chap06에 사용
-import Accommodate from './chapter_07/Accommodate';  //chap07에 사용
+// import Accommodate from './chapter_07/Accommodate';  //chap07에 사용
+import ConfirmButton from './chapter_08/ConfirmButton';  //chap08에 사용 (방법3은 ...Button2로 이름 바꾸기)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +17,8 @@ root.render(
         {/* <Library />  chap03에 사용 */}
         {/* <CommentList/>  chap05에 사용 */}
         {/* <NotificationList/>  chap06에 사용 */}
-        <Accommodate/>
+        {/* <Accommodate/>  chap07에 사용 */}
+        <ConfirmButton/>
     </React.StrictMode>
 );
 
