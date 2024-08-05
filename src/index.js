@@ -13,8 +13,8 @@ import reportWebVitals from './reportWebVitals';
 // import LandingPage from './chapter_09/LandingPage';  //chap09에서 사용
 // import AttendanceBook from './chapter_10/AttendanceBook';  //chap10에서 사용
 // import SignUp from './chapter_11/SignUp';  //chap11에서 사용
-import Calculator from './chapter_12/Calculator';  //chap12에서 사용
-
+// import Calculator from './chapter_12/Calculator';  //chap12에서 사용
+import ProfileCard from './chapter_13/ProfileCard';  //chap13에 사용
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,7 +27,8 @@ root.render(
         {/* <LandingPage/>  chap09에 사용*/}
         {/* <AttendanceBook/>  chap10에 사용*/}
         {/* <SignUp/>  chap11에 사용*/}
-        <Calculator/>
+        {/* <Calculator/>  chap12에 사용*/}
+        <ProfileCard/>
     </React.StrictMode>
 );
 
