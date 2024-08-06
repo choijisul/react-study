@@ -4,31 +4,33 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// import Library from './chapter_03/Library';  //chap03에 사용
-// import Clock from './chapter_04/Clock';  //chap04에 사용
-// import CommentList from './chapter_05/CommentList';  //chap05에 사용
-// import NotificationList from './chapter_06/NotificationList';  //chap06에 사용
-// import Accommodate from './chapter_07/Accommodate';  //chap07에 사용
-// import ConfirmButton from './chapter_08/ConfirmButton';  //chap08에 사용 (방법3은 ...Button2로 이름 바꾸기)
-// import LandingPage from './chapter_09/LandingPage';  //chap09에서 사용
-// import AttendanceBook from './chapter_10/AttendanceBook';  //chap10에서 사용
-// import SignUp from './chapter_11/SignUp';  //chap11에서 사용
-// import Calculator from './chapter_12/Calculator';  //chap12에서 사용
-import ProfileCard from './chapter_13/ProfileCard';  //chap13에 사용
+// import Library from './chapter_03/Library';  //chap03
+// import Clock from './chapter_04/Clock';  //chap04
+// import CommentList from './chapter_05/CommentList';  //chap05
+// import NotificationList from './chapter_06/NotificationList';  //chap06
+// import Accommodate from './chapter_07/Accommodate';  //chap07
+// import ConfirmButton from './chapter_08/ConfirmButton';  //chap08 (방법3은 ...Button2로 이름 바꾸기)
+// import LandingPage from './chapter_09/LandingPage';  //chap09
+// import AttendanceBook from './chapter_10/AttendanceBook';  //chap10
+// import SignUp from './chapter_11/SignUp';  //chap11
+// import Calculator from './chapter_12/Calculator';  //chap12
+// import ProfileCard from './chapter_13/ProfileCard';  //chap13
+import DarkOrLight from './chapter_14/DarkOrLight';  //chap14
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        {/* <Library />  chap03에 사용 */}
-        {/* <CommentList/>  chap05에 사용 */}
-        {/* <NotificationList/>  chap06에 사용 */}
-        {/* <Accommodate/>  chap07에 사용 */}
-        {/* <ConfirmButton/>  chap08에 사용*/}
-        {/* <LandingPage/>  chap09에 사용*/}
-        {/* <AttendanceBook/>  chap10에 사용*/}
-        {/* <SignUp/>  chap11에 사용*/}
-        {/* <Calculator/>  chap12에 사용*/}
-        <ProfileCard/>
+        {/* <Library />  chap03*/}
+        {/* <CommentList/>  chap05 */}
+        {/* <NotificationList/>  chap06 */}
+        {/* <Accommodate/>  chap07 */}
+        {/* <ConfirmButton/>  chap08*/}
+        {/* <LandingPage/>  chap09*/}
+        {/* <AttendanceBook/>  chap10에/}
+        {/* <SignUp/>  chap11*/}
+        {/* <Calculator/>  chap12*/}
+        {/* <ProfileCard/>  chap13*/}
+        <DarkOrLight/>
     </React.StrictMode>
 );
 
