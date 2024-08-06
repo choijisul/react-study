@@ -15,7 +15,8 @@ import reportWebVitals from './reportWebVitals';
 // import SignUp from './chapter_11/SignUp';  //chap11
 // import Calculator from './chapter_12/Calculator';  //chap12
 // import ProfileCard from './chapter_13/ProfileCard';  //chap13
-import DarkOrLight from './chapter_14/DarkOrLight';  //chap14
+// import DarkOrLight from './chapter_14/DarkOrLight';  //chap14
+import Blocks from './chapter_15/Blocks';  //chap15
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,7 +31,8 @@ root.render(
         {/* <SignUp/>  chap11*/}
         {/* <Calculator/>  chap12*/}
         {/* <ProfileCard/>  chap13*/}
-        <DarkOrLight/>
+        {/* <DarkOrLight/>  chap14*/}
+        <Blocks/>
     </React.StrictMode>
 );
 
